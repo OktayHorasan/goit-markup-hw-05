@@ -726,7 +726,7 @@ a {
     fill: transparent;
 }
 
-.input-checkbox:checked .label-checkbox>.privacy-text {
+.input-checkbox:checked + .label-checkbox > .privacy-text {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
